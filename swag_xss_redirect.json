@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "xss test",
-    "description": "xss test [Click here](javascript:alert(document.domain)) <img src='x' onerror='window.location.href=\"https://www.google.com\"'>",
+    "description": "xss test [Click here](javascript:alert(document.domain)) <script>window.location.href='https://www.google.com'</script>",
     "termsOfService": "javascript:alert(document.domain)",
     "contact": {
       "name": "xss test",
