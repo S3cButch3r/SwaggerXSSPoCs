@@ -2,11 +2,11 @@
   "swagger": "2.0",
   "info": {
     "title": "xss test",
-    "description": "xss test [Click here](javascript:alert(document.domain)) <img src=\"x\" onerror=\"document.location='https://www.google.com'\">",
+    "description": "xss test [Click here](javascript:alert(document.domain)) <img src='x' onerror='window.location.href=\"https://www.google.com\"'>",
     "termsOfService": "javascript:alert(document.domain)",
     "contact": {
       "name": "xss test",
-      "email": "xss test",
+      "email": "xss@test.com",
       "url": "javascript:alert(document.domain)"
     },
     "license": {
