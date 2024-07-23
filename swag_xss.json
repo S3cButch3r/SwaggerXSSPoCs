@@ -1,0 +1,18 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "xss test",
+    "description": "xss test [Click here](javascript:alert%28document.domain%29) <img src=x onerror=alert(document.domain)>",
+    "termsOfService": "javascript:alert(document.domain)",
+    "contact": {
+      "name": "xss test",
+      "email": "xss test",
+      "url": "javascript:alert(document.domain)"
+    },
+    "license": {
+      "name": "xss test",
+      "url": "javascript:alert(document.domain)"
+    },
+    "version": "1.0"
+  }
+}
